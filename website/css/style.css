@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #0c0c0c;
-  background-color: #f8f8f8;
+  background-color: #999999;
   overflow-x: hidden;
 }
 
@@ -106,7 +106,7 @@ a:focus {
 .hero_area {
   position: relative;
   background-color: #020230;
-  min-height: 100vh;
+  min-height: 5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,6 +142,7 @@ a:focus {
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
+  cursor:pointer;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -266,8 +267,8 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 45px;
-  padding-bottom: 90px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .slider_section .row {
@@ -362,6 +363,7 @@ a:focus {
 }
 
 .slider_section .carousel_btn-box .carousel-control-prev,
+.slider_section .carousel_btn-box .carousel-control-Down,
 .slider_section .carousel_btn-box .carousel-control-next {
   position: unset;
   width: 50px;
@@ -374,6 +376,7 @@ a:focus {
 }
 
 .slider_section .carousel_btn-box .carousel-control-prev:hover,
+.slider_section .carousel_btn-box .carousel-control-Down:hover,
 .slider_section .carousel_btn-box .carousel-control-next:hover {
   background-color: #ffffff;
   color: #000000;
@@ -435,10 +438,10 @@ a:focus {
 }
 
 .service_section .box .img-box {
-  width: 75px;
-  height: 75px;
+  width: 160px;
+  height: 90px;
   background-color: #03a7d3;
-  border-radius: 100%;
+  border-radius: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -455,8 +458,8 @@ a:focus {
 
 .service_section .box .img-box img {
   width: 100%;
-  max-width: 45px;
-  max-height: 45px;
+  max-width: 200px;
+  max-height: 75px;
 }
 
 .service_section .box .detail-box {
@@ -793,6 +796,7 @@ a:focus {
 }
 
 .client_section .carousel-control-prev,
+.client_section .carousel-control-Down,
 .client_section .carousel-control-next {
   width: 50px;
   height: 50px;
